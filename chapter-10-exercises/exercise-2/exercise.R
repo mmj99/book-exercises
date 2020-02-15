@@ -83,3 +83,4 @@ mean(salaries[salaries$salaries_adjustment < 0, "salaries_adjustment"])
 
 # Write a .csv file of your salary data to your working directory
 
+people_csv <- read.csv(../"example.csv", stringsAsFactors = FALSE)
